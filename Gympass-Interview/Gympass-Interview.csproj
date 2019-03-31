@@ -43,18 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\KartLap.cs" />
+    <Compile Include="Entities\KartRaceResult.cs" />
+    <Compile Include="Extrators\IPositionalDataLineExtrator.cs" />
+    <Compile Include="Extrators\PositionalDataExtractAttribute.cs" />
+    <Compile Include="Extrators\PositionalDataLineExtrator.cs" />
+    <Compile Include="Helpers\DataExtractedParser.cs" />
+    <Compile Include="Helpers\IDataExtractedParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ComputeRankingKartRaceService.cs" />
+    <Compile Include="Services\ExtractKartRaceFileService.cs" />
+    <Compile Include="Services\IComputeRankingKartRaceService.cs" />
+    <Compile Include="Services\IExtractKartRaceFileService.cs" />
+    <Compile Include="KartRaceInformation.cs" />
+    <Compile Include="Services\IOutputKartRaceInformationService.cs" />
+    <Compile Include="Services\OutputKartRaceInformationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="CHANGELOG.md" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
