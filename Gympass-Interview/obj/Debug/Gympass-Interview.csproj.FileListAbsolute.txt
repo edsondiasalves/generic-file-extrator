@@ -5,3 +5,4 @@ C:\Users\edson\source\repos\Gympass-Interview\Gympass-Interview\bin\Debug\Gympas
 C:\Users\edson\source\repos\Gympass-Interview\Gympass-Interview\bin\Debug\Gympass-Interview.pdb
 C:\Users\edson\source\repos\Gympass-Interview\Gympass-Interview\obj\Debug\Gympass-Interview.exe
 C:\Users\edson\source\repos\Gympass-Interview\Gympass-Interview\obj\Debug\Gympass-Interview.pdb
+C:\Users\edson\source\repos\Gympass-Interview\Gympass-Interview\obj\Debug\Gympass-Interview.csprojAssemblyReference.cache
