@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass-Interview", "Gympass-Interview\Gympass-Interview.csproj", "{C73FC3CD-F40F-4B63-B488-6609F95BFE27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{42638949-171F-4813-AB1F-2FDC35FCDC04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C73FC3CD-F40F-4B63-B488-6609F95BFE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73FC3CD-F40F-4B63-B488-6609F95BFE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73FC3CD-F40F-4B63-B488-6609F95BFE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42638949-171F-4813-AB1F-2FDC35FCDC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42638949-171F-4813-AB1F-2FDC35FCDC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42638949-171F-4813-AB1F-2FDC35FCDC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42638949-171F-4813-AB1F-2FDC35FCDC04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

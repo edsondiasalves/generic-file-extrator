@@ -1,4 +1,4 @@
-﻿using Gympass_Interview.Extrators;
+﻿using Gympass_Interview.Extractors;
 using System;
 
 namespace Gympass_Interview.Entities

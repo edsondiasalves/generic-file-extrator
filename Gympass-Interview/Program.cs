@@ -1,5 +1,5 @@
 ﻿using Gympass_Interview.Entities;
-using Gympass_Interview.Extrators;
+using Gympass_Interview.Extractors;
 using Gympass_Interview.Helpers;
 using Gympass_Interview.Services;
 using System;

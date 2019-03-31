@@ -1,11 +1,12 @@
 ﻿using Gympass_Interview.Entities;
-using Gympass_Interview.Extrators;
+using Gympass_Interview.Extractors;
+using Gympass_Interview.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Gympass_Interview.Services
+namespace Gympass_Interview
 {
     public class KartRaceInformation
     {
@@ -13,9 +14,9 @@ namespace Gympass_Interview.Services
         public List<KartRaceResult> Ranking { get; set; }
         public KartRaceResult BestLap { get; set; }
 
-        public IExtractKartRaceFileService ExtractService { get; set; }
-        public IComputeRankingKartRaceService ComputeService { get; set; }
-        public IOutputKartRaceInformationService OutputService { get; set; }
+        private IExtractKartRaceFileService ExtractService { get; set; }
+        private IComputeRankingKartRaceService ComputeService { get; set; }
+        private IOutputKartRaceInformationService OutputService { get; set; }
 
         public KartRaceInformation(
             IExtractKartRaceFileService extractService, 

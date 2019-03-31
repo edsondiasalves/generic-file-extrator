@@ -4,8 +4,6 @@ namespace Gympass_Interview.Helpers
 {
     public class DataExtractedParser : IDataExtractedParser
     {
-        public DataExtractedParser() { }
-
         public TimeSpan ToTimeSpan(string data)
         {
             var split = data.Split(':');

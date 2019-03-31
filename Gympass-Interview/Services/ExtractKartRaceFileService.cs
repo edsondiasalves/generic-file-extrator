@@ -1,5 +1,5 @@
 ﻿using Gympass_Interview.Entities;
-using Gympass_Interview.Extrators;
+using Gympass_Interview.Extractors;
 using Gympass_Interview.Helpers;
 using System;
 using System.Collections.Generic;
@@ -10,17 +10,19 @@ using System.Threading.Tasks;
 
 namespace Gympass_Interview.Services
 {
-    class ExtractKartRaceFileService : IExtractKartRaceFileService
+    public class ExtractKartRaceFileService : IExtractKartRaceFileService
     {
         public List<KartLap> Laps { get; set; }
 
         private IPositionalDataLineExtrator<KartLap> positionalExtractor;
+        private PositionalDataLineExtrator<KartLap> positionalExtractorService;
 
         public ExtractKartRaceFileService(IPositionalDataLineExtrator<KartLap> positionalExtractor)
         {
             this.positionalExtractor = positionalExtractor;
             this.Laps = new List<KartLap>();
         }
+
         public List<KartLap> ExtractDataFromFile(string filePath)
         {
             if (!File.Exists(filePath))

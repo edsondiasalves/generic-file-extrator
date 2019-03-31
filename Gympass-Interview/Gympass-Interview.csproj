@@ -45,9 +45,9 @@
   <ItemGroup>
     <Compile Include="Entities\KartLap.cs" />
     <Compile Include="Entities\KartRaceResult.cs" />
-    <Compile Include="Extrators\IPositionalDataLineExtrator.cs" />
-    <Compile Include="Extrators\PositionalDataExtractAttribute.cs" />
-    <Compile Include="Extrators\PositionalDataLineExtrator.cs" />
+    <Compile Include="Extractors\IPositionalDataLineExtrator.cs" />
+    <Compile Include="Extractors\PositionalDataExtractAttribute.cs" />
+    <Compile Include="Extractors\PositionalDataLineExtrator.cs" />
     <Compile Include="Helpers\DataExtractedParser.cs" />
     <Compile Include="Helpers\IDataExtractedParser.cs" />
     <Compile Include="Program.cs" />

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gympass_Interview.Extrators
+namespace Gympass_Interview.Extractors
 {
     [AttributeUsage(AttributeTargets.Property)]
     public class PositionalDataExtractAttribute : Attribute

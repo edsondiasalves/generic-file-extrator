@@ -1,11 +1,11 @@
 ﻿using Gympass_Interview.Helpers;
 using System.Reflection;
 
-namespace Gympass_Interview.Extrators
+namespace Gympass_Interview.Extractors
 {
     public class PositionalDataLineExtrator<T> : IPositionalDataLineExtrator<T> where T : new()
     {
-        IDataExtractedParser dataParser;
+        private IDataExtractedParser dataParser;
 
         public PositionalDataLineExtrator(IDataExtractedParser parser)
         {

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Gympass_Interview.Services
 {
-    class ComputeRankingKartRaceService : IComputeRankingKartRaceService
+    public class ComputeRankingKartRaceService : IComputeRankingKartRaceService
     {   
         private List<KartRaceResult> Ranking { get; set; }
 

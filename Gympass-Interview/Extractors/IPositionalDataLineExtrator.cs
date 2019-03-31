@@ -1,4 +1,4 @@
-﻿namespace Gympass_Interview.Extrators
+﻿namespace Gympass_Interview.Extractors
 {
     public interface IPositionalDataLineExtrator<T> where T : new()
     {
