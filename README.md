@@ -1,6 +1,4 @@
-﻿This is the Gympass test interview
-
-I choose write this exercise in C# because it was so much easy to me and because is a great opportunity to show the way that I do most like to code.
+﻿This is a Generic File Extrator
 
 pre requisites:
 You should have Microsoft .net Framework 3.5 installed in your computer to execute the program
@@ -10,8 +8,6 @@ To execute this solution follow the steps:
 1) git clone: 
 2) Open the solution in Visual Studio
 3) F5
-
-or you can just execute the .exe in output folder
 
 CODE REVIEWER - VERY IMPORTANT !!!!
 I divided the stages of the development using git tags, so always that I have a new version that the code I created a new tag

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Gympass-Interview\Gympass-Interview.csproj" />
+    <ProjectReference Include="..\Generic-File-Extrator\Generic-File-Extrator.csproj" />
   </ItemGroup>
 
 </Project>

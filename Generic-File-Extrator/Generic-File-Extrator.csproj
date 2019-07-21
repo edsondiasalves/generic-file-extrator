@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C73FC3CD-F40F-4B63-B488-6609F95BFE27}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Gympass_Interview</RootNamespace>
-    <AssemblyName>Gympass-Interview</AssemblyName>
+    <RootNamespace>Generic-File-Extrator</RootNamespace>
+    <AssemblyName>Generic-File-Extrator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

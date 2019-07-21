@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gympass-Interview", "Gympass-Interview\Gympass-Interview.csproj", "{C73FC3CD-F40F-4B63-B488-6609F95BFE27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic-File-Extrator", "Generic-File-Extrator\Generic-File-Extrator.csproj", "{C73FC3CD-F40F-4B63-B488-6609F95BFE27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{42638949-171F-4813-AB1F-2FDC35FCDC04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{42638949-171F-4813-AB1F-2FDC35FCDC04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
